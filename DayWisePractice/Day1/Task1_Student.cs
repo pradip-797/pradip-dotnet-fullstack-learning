@@ -1,4 +1,4 @@
-[200~using System;
+using System;
 
 namespace DayWisePractice.Day1
 {
@@ -28,4 +28,5 @@ namespace DayWisePractice.Day1
             Console.WriteLine($"\nName: {name}\nRoll: {roll}\nMarks: {marks}\nPassed: {passed}");
         }
     }
+}
 
