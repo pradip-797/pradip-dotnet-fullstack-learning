@@ -16,9 +16,19 @@ namespace DayWisePractice.Day2
         {
             Console.WriteLine("== Task 2 : Check Eligibilty for Vote ==");
 
-            //Input Age
+            /*Input Age
             Console.Write("Enter your Age: ");
-            int age = Convert.ToInt32(Console.ReadLine());
+            int age = Convert.ToInt32(Console.ReadLine());*/
+
+            // Input Age with validation
+            Console.Write("Enter your Age: ");
+            string ageInput = Console.ReadLine();
+
+            if (!int.TryParse(ageInput, out int age))
+            {
+                Console.WriteLine("❌ Invalid input. Please enter a valid number for age.");
+                return; // Exit early if input is invalid
+            }
 
             //Input Nationality
             Console.Write("Enter your Nationality: ");
@@ -27,7 +37,7 @@ namespace DayWisePractice.Day2
 
             //checking Relational+ logical
 
-            if (age >= 18 && nationality.Trim().ToLower() == "indian")
+            if (age >= 18 && nationality == "indian")
             {
                 Console.WriteLine("Eligible for Vote");
             }
