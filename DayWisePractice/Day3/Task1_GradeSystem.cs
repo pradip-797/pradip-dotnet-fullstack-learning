@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 Input: Student marks.
 Output: Grade (A / B / C / Fail).*/
 
-namespace DayWisePractice.Day3
+/*namespace DayWisePractice.Day3
 {
     internal class Task1_GradeSystem
     {
@@ -39,4 +39,41 @@ namespace DayWisePractice.Day3
 
         }
     }
+}*/
+
+namespace DayWisePractice.Day3
+{
+    internal class Task1_GradeSystem
+    {
+        public static void Run()
+        {
+            Console.WriteLine("Enter Marks: ");
+
+            // Instead of crashing, this will check input first
+            if (int.TryParse(Console.ReadLine(), out int marks))
+            {
+                if (marks >= 90)
+                {
+                    Console.WriteLine("Grade A");
+                }
+                else if (marks >= 75)
+                {
+                    Console.WriteLine("Grade B");
+                }
+                else if (marks >= 50)
+                {
+                    Console.WriteLine("Grade C");
+                }
+                else
+                {
+                    Console.WriteLine("Fail");
+                }
+            }
+            else
+            {
+                Console.WriteLine("Invalid input, please enter a number.");
+            }
+        }
+    }
 }
+
