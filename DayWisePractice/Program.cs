@@ -19,7 +19,8 @@ namespace DayWisePractice
             // DayWisePractice.Day3.Task2_RoleBasedLogin.Run();
             //DayWisePractice.Day3.Task3_MultiplicationTable.Run();
             //DayWisePractice.Day3.Task4_SumofEvenNumbers.Run();
-            DayWisePractice.Day3.Task5_PrintArrayElements.Run();
+            //DayWisePractice.Day3.Task5_PrintArrayElements.Run();
+            DayWisePractice.Day4.Day4_Methods.Run();
         }
     }
 }
