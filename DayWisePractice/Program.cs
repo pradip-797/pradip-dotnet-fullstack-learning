@@ -20,7 +20,8 @@ namespace DayWisePractice
             //DayWisePractice.Day3.Task3_MultiplicationTable.Run();
             //DayWisePractice.Day3.Task4_SumofEvenNumbers.Run();
             //DayWisePractice.Day3.Task5_PrintArrayElements.Run();
-            DayWisePractice.Day4.Day4_Methods.Run();
+            //DayWisePractice.Day4.Day4_Methods.Run();
+            DayWisePractice.Day5.Day5_Classes.Run();
         }
     }
 }
