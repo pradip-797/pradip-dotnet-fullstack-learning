@@ -23,7 +23,8 @@ namespace DayWisePractice
             //DayWisePractice.Day4.Day4_Methods.Run();
             //DayWisePractice.Day5.Day5_Classes.Run();
             //DayWisePractice.Day6.Day6_Static_Inheritance_Encapsulation.Run();
-            DayWisePractice.Day7.Day7_OOP.Run();
+            //DayWisePractice.Day7.Day7_OOP.Run();
+            DayWisePractice.Day8.Day8_Inheritance.Run();
         }
     }
 }
